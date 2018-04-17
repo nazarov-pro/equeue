@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-17 17:08+0400\n"
+"POT-Creation-Date: 2018-04-17 17:31+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,7 +76,7 @@ msgstr "Bitmə Vaxtı"
 
 #: .\equeue\settings.py:124
 msgid "English"
-msgstr "Ingilis"
+msgstr "Ingiliscə"
 
 #: .\equeue\settings.py:125
 msgid "Azerbaijani"

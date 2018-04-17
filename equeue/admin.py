@@ -9,7 +9,17 @@ class CompanyAdmin(admin.ModelAdmin):
 
     search_fields = ["name"]
 
-@admin.register(models.Working_Hour)
+@admin.register(models.WorkingHour)
 class WorkingHourAdmin(admin.ModelAdmin):
-    list_display = ("dayOfWeek", )
+    list_display = ("company", )
+    search_fields = ["company"]
+
+@admin.register(models.WeekDay)
+class WorkingHourAdmin(admin.ModelAdmin):
+    list_display = ("dayOfWeek",)
     search_fields = ["dayOfWeek"]
+
+@admin.register(models.ExeptionDay)
+class WorkingHourAdmin(admin.ModelAdmin):
+    list_display = ("date",)
+    search_fields = ["date"]
