@@ -1,0 +1,11 @@
+{% load l10n i18n tz %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Welcome {{ name }}, Date {{ today }}, Time {{ time|time:"H:i" }}, Az Time {{ time|timezone:"America/New_York"|time:"H:i" }}
+</body>
+</html>
