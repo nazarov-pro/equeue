@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-17 12:03+0400\n"
+"POT-Creation-Date: 2018-04-17 17:08+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,66 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\equeue\settings.py:120
+#: .\equeue\models.py:8
+msgid "Activated"
+msgstr "Aktivdir"
+
+#: .\equeue\models.py:9
+msgid "Terminated"
+msgstr "Söndürülüb"
+
+#: .\equeue\models.py:10
+msgid "Suspended"
+msgstr "Dondurulub"
+
+#: .\equeue\models.py:11
+msgid "Closed"
+msgstr "Bağlanıb"
+
+#: .\equeue\models.py:14
+msgid "Name"
+msgstr "Ad"
+
+#: .\equeue\models.py:24
+msgid "Monday"
+msgstr "Bazar Ertəsi"
+
+#: .\equeue\models.py:25
+msgid "Tuesday"
+msgstr "Çərşənbə Axşamı"
+
+#: .\equeue\models.py:26
+msgid "Wednesday"
+msgstr "Çərşənbə"
+
+#: .\equeue\models.py:27
+msgid "Thursday"
+msgstr "Cümə Axşamı"
+
+#: .\equeue\models.py:28
+msgid "Friday"
+msgstr "Cümə"
+
+#: .\equeue\models.py:29
+msgid "Saturday"
+msgstr "Şənbə"
+
+#: .\equeue\models.py:30
+msgid "Sunday"
+msgstr "Bazar"
+
+#: .\equeue\models.py:35
+msgid "Start_Time"
+msgstr "Başlama Vaxtı"
+
+#: .\equeue\models.py:36
+msgid "End_Time"
+msgstr "Bitmə Vaxtı"
+
+#: .\equeue\settings.py:124
 msgid "English"
 msgstr "Ingilis"
 
-#: .\equeue\settings.py:121
+#: .\equeue\settings.py:125
 msgid "Azerbaijani"
 msgstr "Azərbaycanca"

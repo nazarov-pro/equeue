@@ -25,3 +25,4 @@ Electronic queue(Python 3, Django 2)
 
 #### `django-admin startproject new_project_name`
 #### `django-admin startapp new_module_name`
+#### `pip install --upgrade selenium`

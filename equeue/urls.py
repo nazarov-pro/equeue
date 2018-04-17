@@ -16,11 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path
 from django.conf.urls.i18n import i18n_patterns
-from qrcode import urls as qrcode_urls
 from equeue import views
 
 urlpatterns = i18n_patterns(
     re_path(r'^home/$', views.renderIndex2),
+    re_path(r'^image/$', views.return_qr),
     path('admin/', admin.site.urls),
     # path('qrcode/', qrcode_urls),
     path('', views.renderIndex),

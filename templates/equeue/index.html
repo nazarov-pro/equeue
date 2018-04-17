@@ -6,6 +6,7 @@
     <title>Title</title>
 </head>
 <body>
+<img src="{{ path|safe }}"/>
 Welcome {{ name }}, Date {{ today }}, Time {{ time|time:"H:i" }}, Az Time {{ time|timezone:"America/New_York"|time:"H:i" }}
 </body>
 </html>
